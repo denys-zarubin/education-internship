@@ -1,4 +1,3 @@
-
 # jsintensive 
 
 - Vadim
@@ -17,5 +16,6 @@
 - Alexander Baev
 - Dmytro Matsiura
 - Vlad_Gavrilov
+- Valeria
 
 
