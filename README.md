@@ -1,30 +1,19 @@
-Seiran
-Denis Repin
-Denys
-Vladyslav
-Ilya
-Max 
-Denys
-Anton Abrosymov
-Olena
-SASHA
-Den
-Bulat Cherkashin
-Vladyslav
-Ilya
-Max 
-Tatiana
-Denys
-Alexander Baev
-Anton Abrosymov
-Denis Repin
-Denys
-Ilya
-Dmytro Matsiura
-Vlad Gavrilov
-Denis Repin
-Denys
-Vladyslav
-Ilya
-Max 
-Denys
+# jsintensive 
+
+- Vadim
+- Seiran
+- Denis Repin
+- Vladyslav
+- Ilya
+- Max
+- Denys
+- Anton Abrosymov
+- Olena
+- SASHA
+- Den
+- Bulat Cherkashin
+- Tatiana
+- Alexander Baev
+- Dmytro Matsiura
+- Vlad_Gavrilov
+- Valeria
