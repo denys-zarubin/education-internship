@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Seiran
 Denis Repin
 Denys
@@ -7,6 +8,12 @@ Max
 Denys
 # Best group :)
 # Anton Abrosymov
+=======
+Tatiana
+Denys
+Alexander Baev
+Anton Abrosymov
+>>>>>>> 56287197618e797fb756dc02ff27449ef3e2d34b
 Denis Repin
 Denys
 Ilya
@@ -18,3 +25,8 @@ Vladyslav
 Ilya
 Max 
 Denys
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 56287197618e797fb756dc02ff27449ef3e2d34b
