@@ -17,5 +17,3 @@
 - Dmytro Matsiura
 - Vlad_Gavrilov
 - Valeria
-
-
