@@ -1,20 +1,17 @@
-
-Valeria
-Ilya
-# Anton Abrosymov
-Denis Repin
-Bulat Cherkashin
-Vladyslav
-Ilya
-Max 
-Tatiana
-Denys
-Alexander Baev
-Anton Abrosymov
-Denys
-Dmytro Matsiura
-Vlad_Gavrilov
-Denis Repin
-Vladyslav
-
+- Seiran
+- Denis Repin
+- Vladyslav
+- Ilya
+- Max
+- Denys
+- Anton Abrosymov
+- Olena
+- SASHA
+- Den
+- Bulat Cherkashin
+- Tatiana
+- Alexander Baev
+- Dmytro Matsiura
+- Vlad_Gavrilov
+- Valeria
 
