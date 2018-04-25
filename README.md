@@ -1,1 +1,1 @@
-# education-internship
+Denis Repin
