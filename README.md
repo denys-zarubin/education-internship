@@ -1,13 +1,18 @@
+<<<<<<< HEAD
 Valeria
 Ilya
 Max
 # Best group :)
 # Anton Abrosymov
 Denis Repin
-Denys
-# education-internship
 Ilya
-# education-internship
+Tatiana
+Denys
+Alexander Baev
+Anton Abrosymov
+Denis Repin
+Denys
+Ilya
 Dmytro Matsiura
 Vlad_Gavrilov
 Denis Repin
@@ -16,4 +21,5 @@ Vladyslav
 Ilya
 Max 
 Denys
+
 
