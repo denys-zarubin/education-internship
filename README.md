@@ -1,5 +1,4 @@
-# education-internship
-
-## test commit
+# Best group :)
 
 Dmytro Matsiura
+Denys
