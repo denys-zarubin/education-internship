@@ -1,1 +1,1 @@
-# education-internship
+Bulat Cherkashin
