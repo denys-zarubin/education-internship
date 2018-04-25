@@ -1,5 +1,0 @@
-
-# education-internship
-Max 
-Denys
-
