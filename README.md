@@ -1,1 +1,1 @@
-# education-internship
+Litvinov Vladyslav
