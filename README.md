@@ -1,5 +1,5 @@
 # jsintensive 
-- ## Group <h2>tag
+
 - Vadim
 - Seiran
 - Denis Repin
