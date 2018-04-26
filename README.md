@@ -1,5 +1,6 @@
 # jsintensive 
-
+TODAY
+yes
 - Vadim
 - Seiran
 - Denis Repin
