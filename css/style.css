@@ -42,6 +42,11 @@ ul, li{
 }
 
 /*default component*/
+.container-common{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .container{
     max-width: 1030px;
     margin: 0 auto;
@@ -156,11 +161,15 @@ ul, li{
     text-transform: uppercase;
     margin-top: 30px;
 }
+
+
 .carousel{
     position: relative;
+    height: 200px;
 }
 .carousel .nav{
     position: absolute;
+    z-index: 100;
     top: 50%;
     transform: translateY(-50%);
     height: 30px;
@@ -172,24 +181,55 @@ ul, li{
 .carousel .nav:hover{
   color: #bdbdbd;
 }
-.carousel-content{
-    padding: 0;
-    max-width: 1000px;
-    overflow: hidden;
-}
-.carousel-content li{
-    position: relative;
-}
-.carousel-content li+li{
-    margin-left: 20px;
-}
-
 .carousel .nav.prev{
     left: -32px;
 }
 .carousel .nav.next{
     right: -32px;
 }
+.carousel-container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slides-all{
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: left .5s;
+}
+.slides-all li{
+    position: relative;
+}
+.slides-all li+li{
+    margin-left: 20px;
+}
+.slides-all li:hover .img-hov{
+    display: flex;
+}
+.slides-all .img-hov{
+    display: none;
+    background-color: #757575;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0 43px;
+}
+
+.slides-all .img-hov p{
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #ececec;
+    align-self: center;
+}
+
 
 .row{
     margin: 0 -25px;
@@ -286,6 +326,16 @@ ul, li{
     padding: 16px 0;
     background-color: #51b736;
     color: #fff;
+
+}
+.header.fixed{
+    position: fixed;
+    z-index: 99;
+    top: -67px;
+    left: 0;
+    right: 0;
+    opacity: .7;
+    transition: top 1s;
 }
 .user-icon{
     position: relative;
@@ -355,13 +405,11 @@ ul, li{
 }
 /*main style*/
 
-
 /*company section*/
 .section.company{
     height: 500px;
     overflow-y: hidden;
     padding-top: calc(172px - 65px);
-
 }
 .section.company .about-company{
     max-width: 50%;
@@ -505,27 +553,7 @@ form[name="subscribe"] .dafault-input{
     background-color: #282828;
     padding: 62px 0;
 }
-.carousel-content li:hover .img-hov{
-    display: flex;
-}
-.carousel-content .img-hov{
-    display: none;
-    background-color: #757575;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    padding: 0 43px;
-}
 
-.carousel-content .img-hov p{
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: center;
-    color: #ececec;
-    align-self: center;
-}
 /*team section*/
 .section.team{
     padding: 130px 0;
@@ -550,6 +578,7 @@ form[name="subscribe"] .dafault-input{
 .footer{
     padding: 21px 0;
     background-color: #282828;
+    margin-top: auto;
 }
 .social-links .social{
     color: #fff;
@@ -575,15 +604,12 @@ form[name="subscribe"] .dafault-input{
 .social-links .social+ .social{
     margin-left: 26px;
 }
-@media (max-width: 1200px){
-    .carousel{
-        width: max-content;
-        margin: 0 auto;
+@media (max-width: 1080px){
+    .carousel .nav.next{
+        right: 0;
     }
-    .carousel-content{
-        padding: 0;
-        max-width: 746px;
-        overflow: hidden;
+    .carousel .nav.prev{
+        left: 0;
     }
 }
 @media(max-width: 960px) {
@@ -628,8 +654,8 @@ form[name="subscribe"] .dafault-input{
     }
     .main-nav.active::before {
         content: '';
-        height: 0px;
-        width: 0px;
+        height: 0;
+        width: 0;
         border: 10px solid transparent;
         border-bottom: 10px solid #212121;
         position: absolute;
@@ -658,9 +684,7 @@ form[name="subscribe"] .dafault-input{
     form[name="subscribe"]{
         max-width: 100%;
     }
-    .carousel-content{
-        max-width: 490px;
-    }
+
     .section.info .info-item{
         width: 100%;
         margin: 10px 0;
@@ -700,9 +724,6 @@ form[name="subscribe"] .dafault-input{
     form[name="subscribe"] .default-btn{
         margin-top: 30px;
 
-    }
-    .carousel-content{
-        width: 240px;
     }
     .team-item-col{
         width: 100%;
