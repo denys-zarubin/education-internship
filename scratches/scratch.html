@@ -20,11 +20,16 @@
         </nav>
     </header>
     <main>
-        <section class="light">
+        <section class="light-section slider-gallery">
             <div class="gallery">
                 <img src="http://via.placeholder.com/76x62" alt="main-img" class="gallery-img">
                 <h1 class="gallery-title">Company</h1>
                 <p class="gallery-paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+            <div class="changer">
+                <div class="changer-round"></div>
+                <div class="changer-round checked-changer-round"></div>
+                <div class="changer-round"></div>
             </div>
             <div class="slider">
                 <div class="slider-item">
@@ -56,7 +61,7 @@
                 </div>
             </div>
         </section>
-        <section class="dark">
+        <section class="dark-section">
             <div class="info-box">
                 <div class="dark-info">
                     <div class="info-logo">
@@ -65,7 +70,7 @@
                     <h2 class="info-title info-title-light">Information</h2>
                     <p class="info-paragraph info-paragraph-light">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
                 atque </p>
-                    <a href="#" class="button button-dark">BUTTON</a>
+                    <a href="#" class="btn btn-dark">BUTTON</a>
                 </div>
                 <div class="light-info">
                     <div class="info-logo">
@@ -74,11 +79,11 @@
                     <h2 class="info-title info-title-dark">Information</h2>
                     <p class="info-paragraph info-paragraph-dark">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
                 atque </p>
-                    <a href="#" class="button button-green">BUTTON</a>
+                    <a href="#" class="btn btn-green">BUTTON</a>
                 </div>
             </div>
         </section>
-        <section class="light our-projects">
+        <section class="light-section our-projects">
             <h2 class="our-projects-title">Our projects</h2>
             <div class="projects">
                 <div class="projects-item"><a href="#"><img src="http://via.placeholder.com/235X220" alt="proj1"></a></div>
@@ -91,12 +96,12 @@
                 <div class="projects-item"><a href="#"><img src="http://via.placeholder.com/235X220" alt="proj8"></a></div>
             </div>
         </section>
-        <section class="dark company">
+        <section class="dark-section company">
             <h2 class="company-title">Company</h2>
             <p class="company-paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
         corrupti quos dolores et quas molestias</p>
         </section>
-        <section class="light">
+        <section class="light-section prices">
             <h2 class="price-title">Price</h2>
             <div class="prices-area">
                 <div class="price-item">
@@ -177,11 +182,11 @@
             </div>
         </section>
         <div class="subscribe">
-            <div>
+
                 <p class="subscribe-text-paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
             atque corrupti quos dolores et quas molestias </p>
-                <a href="#" class="button button-grey">SUBSCRIBE</a>
-            </div>
+                <a href="#" class="btn btn-grey">SUBSCRIBE</a>
+
         </div>
         <map name="city-map">
             <div id="map"></div>
@@ -191,15 +196,16 @@
         <div class="logo"><img src="http://via.placeholder.com/34x34" alt="logo"></div>
         <div class="main-menu">
             <ul class="main-menu-list">
-                <li class="main-menu-item"><a href="#" class="main-menu-link">ABOUT</a></li>
-                <li class="main-menu-item"><a href="#" class="main-menu-link">SERVICES</a></li>
-                <li class="main-menu-item"><a href="#" class="main-menu-link">TOURS</a></li>
-                <li class="main-menu-item"><a href="#" class="main-menu-link">PORTFOLIO</a></li>
-                <li class="main-menu-item"><a href="#" class="main-menu-link">CONTACT</a></li>
+                <li class="main-menu-item foot-menu-item"><a href="#" class="main-menu-link">ABOUT</a></li>
+                <li class="main-menu-item foot-menu-item"><a href="#" class="main-menu-link">SERVICES</a></li>
+                <li class="main-menu-item foot-menu-item"><a href="#" class="main-menu-link">TOURS</a></li>
+                <li class="main-menu-item foot-menu-item"><a href="#" class="main-menu-link">PORTFOLIO</a></li>
+                <li class="main-menu-item foot-menu-item"><a href="#" class="main-menu-link">CONTACT</a></li>
             </ul>
         </div>
     </footer>
     <script src="map.js"></script>
+    <script src="styles.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALDjdl2-NXJHKui7vjzdB0rKpc3tSwwWQ&callback=initMap" async defer></script>
 </body>
 </html>
