@@ -51,7 +51,6 @@ body * {
     align-items: center;
 }
 .navigation {
-    /*max-width: 80%;*/
     text-align: center;
 }
 .navigation-list {
@@ -83,12 +82,11 @@ body * {
 }
 .information-column {
     font-size: 10px;
-    margin-bottom: 100px;
     margin-top: 60px;
     justify-content: space-around;
     align-items: center;
 }
-.information-column-servise {
+.information-column-service {
     max-width: 30%;
     color: #bdbdbd;
 }
@@ -105,7 +103,7 @@ body * {
     height: 86px;
     margin-bottom: 60px;
 }
-.carusel {
+.carousel {
     justify-content: center;
     align-items: center;
 }
@@ -115,14 +113,14 @@ body * {
     box-sizing: border-box;
     color: #bdbdbd;
 }
-.carusel-img {
+.carousel-img {
     width: 90%;
     padding-left: 0;
     margin: 20px;
     list-style-type: none;
     box-sizing: border-box;
 }
-.carusel-img-li {
+.carousel-img-li {
     width: 25%;
     margin: 0 10px;
 }
@@ -157,7 +155,7 @@ body * {
     right: 0;
     bottom: 0;
 }
-.carusel-img-li:hover {
+.carousel-img-li:hover {
     background-color: #757575;
     cursor: pointer;
 }
@@ -234,7 +232,7 @@ body * {
     color: #bdbdbd
 }
 .map {
-    width: 50%;
+    width: 45%;
     padding: 10px;
 } 
 .input {
@@ -344,7 +342,7 @@ body * {
 
 
 /* Landscape phones and smaller */
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .content {
         max-width: 420px;
         margin: 0 auto;
@@ -383,7 +381,7 @@ body * {
         background-color: #847A7A;
         color: #282828;
     }
-    .carusel-img-li{
+    .carousel-img-li{
         width: 60%;
         padding: 0 10px;
         flex: 0 0 50%;
@@ -395,18 +393,21 @@ body * {
         display: none;
     }
     .information-column{
-        width: 100%;
         flex-direction: column;
+        margin: 20px auto;
     }
-    .information-column-servise{
+    .information-column-service{
         max-width: 100%;
         padding: 0;
         margin: 0;
     }
     .information-service.left,
     .information-service.right {
+        text-align: justify;
+        margin: 10px auto;
+    }
+    .service-title{
         text-align: center;
-        margin: 0;
     }
     .information-service {
         max-width:100%;
@@ -422,7 +423,7 @@ body * {
     .navigation-item {
         margin: 0 5px;
     }
-    .carusel-img-li{
+    .carousel-img-li{
         width: 50%;
         padding: 0 10px;
         flex: 0 0 50%;
@@ -434,9 +435,11 @@ body * {
     .information-service{
         width: 100%;
     }
-    .carusel-img{
-    /*.column {*/
+    .carousel-img{
         justify-content: center;
+    }
+    .column {
+        margin: 10px;
     }
     #four,
     .three{
@@ -447,6 +450,15 @@ body * {
     }
     .information-service{
         width: 100%;
+    }
+    .img-tumb.phone{
+        margin: 20px;
+    }
+    .information-column{
+        justify-content: first baseline;
+    }
+    .img-tumb-map{
+        margin-bottom: 20px;
     }
 }
 
