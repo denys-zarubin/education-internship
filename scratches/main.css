@@ -317,9 +317,14 @@ body * {
 }
 
 .company {
-    height: 200px;
+    min-height: 200px;
     margin: 0;
-    padding: 68px 0 0 0;
+}
+
+.container-company {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .company-title {
@@ -332,25 +337,25 @@ body * {
 }
 
 .company-paragraph {
-    width: 460px;
+    max-width: 460px;
     font-size: 18px;
     text-align: center;
     color: #fff;
-    padding: 0 0 0 50%;
-    margin: 15px 0 0 -230px;
     line-height: 1.33;
 }
 
+.container-prices {
+    flex-direction: column;
+}
+
 .prices-area {
-    width: 872px;
+    min-width: 872px;
     height: auto;
     min-height: 400px;
     display: flex;
     flex-flow: row wrap;
-    align-content: space-between;
-    justify-content: space-between;
-    padding: 0 0 90px 50%;
-    margin: 0 0 0 -436px;
+    align-content: space-around;
+    justify-content: space-around;
 }
 
 .price-title {
@@ -381,14 +386,15 @@ body * {
 }
 
 .price-item-head {
-    height: 32px;
+    height: 50px;
     background-color: #bdbdbd;
     border: solid 1px #bdbdbd;
     color: #fff;
     font-size: 12px;
     text-align: center;
+    padding: 16px 0 0 0;
     font-weight: bold;
-    padding: 18px 0 0 0;
+    box-sizing: border-box;
 }
 
 .price-item-body {
@@ -398,6 +404,10 @@ body * {
     border: solid 1px #bdbdbd;
     text-align: center;
     padding: 23px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 100px 0;
 }
 
 .price-list {
@@ -413,14 +423,12 @@ body * {
 }
 
 .price-list-item-body {
-    width: 166px;
+    max-width: 166px;
     font-size: 10px;
     font-weight: normal;
     line-height: 1.6;
     color: #bdbdbd;
     text-align: center;
-    padding: 6px 0 10px 50%;
-    margin: 0 0 0 -83px;
 }
 
 .price {
@@ -431,7 +439,7 @@ body * {
 }
 
 .price-choose {
-    padding: 24px 0 0 0;
+    padding: 24px 0 24px 0;
 }
 
 .price-choose-link {
@@ -456,7 +464,7 @@ body * {
 }
 
 .subscribe {
-    height: 80px;
+    min-height: 80px;
     background-color: #bdbdbd;
     font-size: 16px;
     text-align: left;
@@ -465,20 +473,23 @@ body * {
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 36px 0 0 0;
+}
+
+.container-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
 }
 
 .subscribe-text-paragraph {
-    width: 763px;
-    float: left;
-    padding: 0;
-    margin: 0;
+    max-width: 760px;
 }
 
 .btn-grey {
     text-decoration: none;
     width: 150px;
-    height: 24px;
+    height: 36px;
     border-radius: 2px;
     background-color: #fff;
     display: block;
@@ -487,8 +498,6 @@ body * {
     line-height: 2;
     color: #454545;
     padding: 6px 0;
-    margin: 0 0 0 60px;
-    float: right;
     font-weight: bold;
 }
 
