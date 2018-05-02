@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    border: 1px solid #999;
+}
+body* {
+    box-sizing: border-box;
+}
+.header-block {
+    height: 78px;
+    display: flex;
+    background-color: #51b736;
+}
+.menu-symbol {
+	flex: 1;
+    margin: auto;
+    text-align: center;
+}
+.nav-links {
+	flex: 4;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.link-item {
+	padding: 0 6%;
+	border-left: 1px solid #fff;
+    font-size: 12px;
+}
+.first-item {
+    border-left: none;
+}
+.decoration-none {
+    color: #fff;
+    text-decoration: none;
+}
+.section {
+    padding: 100px 0;
+}
+.narrow {
+    max-width: 870px;
+    margin: 0 auto;
+}
+.phone-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.phone-header {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.phone-div {
+    display: block;
+    flex: 30%;
+    justify-content: center;
+}
+.main-info-size {
+    font-size: 40px;
+}
+.text-size {
+    font-size: 14px;
+}
+.text-width {
+    max-width: 377px;
+}
+.f-row {
+    display: flex;
+    flex-direction: row;
+}
+.phone-header-img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: auto 30px;
+}
+.h-param {
+    font-size: 9px;
+    font-weight: bold;
+}
+.text-param {
+    font-size: 10px;
+    font-weight: normal;
+}
+.phonecontainer {
+    margin-top: 50px;
+}
+.imgphone {
+    display: inline;
+    max-width: 370px;
+}
+.section.black {
+    background: #282828;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.slide-arrow {
+    width: 5%;
+    margin: auto;
+}
+.arrow-color{
+    color: #fff;
+}
+.slide-list {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    list-style: none;
+}
+.slide-name {
+    flex: 1;
+    overflow: hidden;
+    max-width: 25%;
+    height: 250px;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin: auto 2%;
+    background-color: #ececec;
+}
+/*.display-view {
+    display: none;
+}*/
+/*.slide-name: hover p {
+    display: block;
+}*/
+.logo {
+    width: 20px;
+    height: 20px;
+}
+.centre {
+    margin: auto;
+}
+.img-position {
+    display: block;
+    width: 49px;
+    height: 39px;
+    margin: 107px auto 44px;
+}
+.h-position {
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+}
+.text-position {
+    height: 95px;
+    width: 636px;
+    margin: 39px auto 111px;
+    font-size: 16px;
+}
+.price-posit-param {
+    text-align: center;
+    font-size: 40px;
+}
+.tariff-name {
+    display: flex;
+    padding: 0 6%;
+    list-style: none;
+}
+.tariff {
+    flex: 30%;
+    border: 1px solid #bdbdbd;
+    margin: auto 25px;
+}
+.price-header {
+    height: 50px;
+    background-color: #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+}
+.price-header-name {
+    text-align: center;
+}
+.price-list-position {
+    width: 70%;
+    margin: 0 auto;
+}
+.map-block{
+    width: 100%;
+    height: 425px;
+}
+.map-header {
+    display: flex;
+    height: 97px;
+    background-color: #757575;
+}
+.map-header-text {
+    flex: 4;
+    max-width: 764px;
+    margin: auto;
+}
+.map-text-posit {
+	text-align: center;
+}
+.button {
+    flex: 1;
+    margin: auto;
+    text-align: center;
+}
+.btn {
+    width: 90px;
+    height: 36px;
+    border: 1px solid #fff;
+}
+.map {
+    height: 328px;
+    background-image: url(https://htmlpdfapi.com/uploads/images/575445017261692cac000000/content_google_maps_to_pdf_integration.png);
+    background-size: cover;
+}
+.form-height {
+	height: 350px;
+}
+.input {
+    display: flex;
+}
+.input-p-column {
+    flex:1;
+}
+input[type=text] {
+    width: 80%;
+}
+.textarea {
+    width: 90%;
+    height: 150px;
+}
+.form-button {
+    text-align: center;
+}
+.form-btn {
+    width: 90px;
+    height: 36px;
+}
+.footer {
+    display: flex;
+    color: #fff;
+    background-color: #757575;
+}
+.footer-flex {
+    flex: 1;
+    border-left: 1px solid #bdbdbd;;
+}
+.list-style {
+    flex:1;
+    padding: 0;
+    list-style: none;
+}
+.service {
+    padding: 3%;
+}
+.footer-info {
+    display: flex;
+    padding: 3%;
+}
+.foot-text {
+    font-size: 11px;
+}
+.footer-right {
+    padding: 3%;
+}
+.h6-size {
+    font-size: 12px;
+    font-weight: bold;
+}
+.btn-bcgrnd {
+	color: #ececec;
+	font-size: 11px;
+    background-color: #757575;
+    border: solid 1px #ececec;
+}
